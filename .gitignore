@@ -1,0 +1,259 @@
+# ================================
+# PYTHON / BACKEND
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+venv_3_10/
+backend/venv_3_10/
+
+# Flask
+instance/
+.webassets-cache
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# ================================
+# NODE.JS / FRONTEND
+# ================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production builds
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite
+.vite/
+
+# ================================
+# BLOCKCHAIN / TRUFFLE
+# ================================
+
+# Truffle
+build/contracts/
+.truffle/
+
+# Ganache
+ganache-cli/
+
+# Blockchain artifacts
+*.json.bak
+
+# ================================
+# DATABASE
+# ================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+database.db
+
+# Database migrations (keep structure, ignore auto-generated)
+backend/migrations/versions/*.py
+!backend/migrations/versions/__init__.py
+
+# ================================
+# UPLOADS & USER CONTENT
+# ================================
+
+# File uploads
+uploads/
+backend/uploads/
+backend/app/uploads/
+frontend/public/uploads/
+
+# ================================
+# IDE & EDITORS
+# ================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ================================
+# OPERATING SYSTEM
+# ================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ================================
+# LOGS & TEMPORARY FILES
+# ================================
+
+# Logs
+logs/
+*.log
+log/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ================================
+# SECURITY & SECRETS
+# ================================
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+private_key*
+*.crt
+*.csr
+
+# Configuration with secrets
+config.ini
+secrets.json
+settings.local.py
+
+# ================================
+# TESTING & COVERAGE
+# ================================
+
+# Test results
+test_results/
+coverage_html_report/
+.nyc_output/
+
+# ================================
+# DOCUMENTATION
+# ================================
+
+# Generated documentation
+docs/_build/
+site/
+
+# ================================
+# MISC
+# ================================
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# IDE specific files
+*.iml
+*.ipr
+*.iws
+
+# Package manager files
+package-lock.json
+yarn.lock
+poetry.lock
+
+# Local development overrides
+docker-compose.override.yml
+.env.override

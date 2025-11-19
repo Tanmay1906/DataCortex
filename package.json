@@ -1,0 +1,17 @@
+{
+  "name": "trm-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain smart contracts for TRM 2.0 Digital Evidence Management",
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --reset",
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.0",
+    "truffle": "^5.11.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
